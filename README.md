@@ -2,13 +2,13 @@
 
 > “A triathlon is a multiple-stage competition involving the completion of three continuous and sequential endurance disciplines. [...] The first modern swim/bike/run event to be called a 'triathlon' was held at Mission Bay, San Diego, California on September 25, 1974.” (from Wikipedia, the free encyclopedia) 
 
-##Research questions:
+## Research questions 
 
 - How well balanced is this competition format?
 - Are all disciplines equally important?
 - Do some athletes have an advantage over others?
 
-##Procedure: 
+## Procedure 
 
 To answer the questions formulated above I have collected and aggregated data from the “Triathlon Hamburg Everyman Olympic Men” from 2009 to 2015. The Triathlon Olympic Distance consists of 1.5 km swimming, 40 km biking and 10 km running. The [ITU World Triathlon Hamburg](http://hamburg-triathlon.org/) (known 2009–2012 as Dextro Energy Triathlon ITU World Championship Hamburg and ITU World Triathlon Hamburg since 2013)  claims to be known as the “The World's Biggest Tri” with more than 10,000 participants (actually the London Triathlon – currently known as the “AJ Bell London Triathlon”, and previously the “Virgin Active London Triathlon”, “Mazda London Triathlon” and the “Michelob ULTRA London Triathlon”, for sponsorship reasons – attracts more than 13,000 competitors, but is not an event of the International Triathlon Union). Elite athletes have to qualify to participate in the [ITU World Triathlon Series](https://en.wikipedia.org/wiki/ITU_World_Triathlon_Series). So-called “everyman” competitors howevers can sign up for the sprint distance (0,5km/22km/5km), the olympic distance (1,5km/40km/10km) or the relay together with friends (“Staffel”), family (“Staffel Familienwertung”) or colleagues (“Staffel Firmenwertung”). The number of places for solo competitors is strictly limited, and usually sold out well in advance. 
 
@@ -29,13 +29,13 @@ Timekeeping & Result Service is provided by mika:timing using reusable transpond
     - July 12–13, 2014 <http://hamburg-itu.r.mikatiming.de/2014/>
     - July 18–19, 2015 <http://hamburg-itu.r.mikatiming.de/2015/>
 
-## Participants not included in the sample: 
+## Participants not included in the sample 
 - DNS (Did Not Start) 
 - DNF (Did Not Finish) 
 - DQ (Disqualified) 
 - participants missing split times
 
-## Information removed from the sample: 
+## Information removed from the sample 
 - club 
 - (multiple) split check points 
 - DQ 
@@ -49,36 +49,7 @@ There is no way to determine if extreme outliers (i.e. times > 6 * standard devi
 ## Coding 
 - Inconsistencies in Age Class (also: Age Group) labels (e.g. AK4 or MAK4) have been standardized (to include the letter M for male participants). 
 - Inconsistencies in three-letter country codes with Nationality have been solved by applying ISO 3166-1 alpha-3 (NED > NLD, DEN > DNK, ROM > ROU, CRO > HRV, SUI > CHE, RSA > ZAF, POR > PRT, CHI > CHL). 
-- Competitors with inconsistent nationality have been reduced to one (predominant nationality if uneven; non-German in tied cases; first reported nationality where only non-German nationalitites given): 
-    - ernesto-rogge (5* GER, 1* CHE) 
-    - etienne-junot (3* FRA, 1* GER) 
-    - farid-najem (2* AFG, 2* GER) 
-    - ferran-canet (1* ESP, 1* GER) 
-    - florian-berger (1* AUT, 1* GER) 
-    - frank-rusche (2* NLD, 1* GER) 
-    - hassan-abdel-meguid (1* EGY, 1* GER) 
-    - helmut-cordes (1* DJI, 1* GER)
-    - joachim-doeding (1* BRA, 1* GER) 
-    - jos-meijerhof (1* GER, 2* NLD) 
-    - karsten-elias (2* GER, 3* EGY) 
-    - klaus-huppertz (1* NLD, 1* GER) 
-    - marcos-fadul (2* GER, 1* ARG) 
-    - marcus-leaver (4* GBR, 1* GER) 
-    - marios-winding (1* CIV, 2* DNK, 3* GRC) 
-    - mark-van-der-merwe (1* ZAF, 1* GER)
-    - michael-niermann (1* GER, 1* SGS) 
-    - michael-schenk (1* GER, 1* NLD) 
-    - michael-schmid (1* AUT, 1* GER) 
-    - mike-fehrs (1* CHE, 1* GER)
-    - paul-lockwood-lee (1* GBR, 1* VGB) 
-    - raul-campos (1* GER, 1* PRT) 
-    - robin-de-ruiter (2* NLD, 1* GER) 
-    - siegfried-pillmann (5* GER, 1* EGY) 
-    - spyridon-foundas (1* GER, 1* GRC) 
-    - thomas-blades (3* GBR, 1* GER) 
-    - thomas-dziubinski (3* GER, 1* ALG) 
-    - thomas-goetz (1* CHE, 1* GER) 
-    - urs-pargaetzi (2* CHE, 2* GER) 
+- Competitors with inconsistent nationality have been reduced to one (predominant nationality if uneven; non-German in tied cases; first reported nationality where only non-German nationalitites given). 
 
 ## Naming convention 
 - Since names of competitors are self-reported, names are not consistent. To better recognize competitors between events, the names have been sanitized and stored in the colum “nicename”. 
@@ -88,3 +59,6 @@ There is no way to determine if extreme outliers (i.e. times > 6 * standard devi
     - Titles have been removed (e.g. B.Sc., Dipl.Bau I, Dipl.-Betr , Dipl. Bibl, DiplIng, Dipl-Ing, Dipl. Ing., Dipl.-Ing. Dipl.Ing., Dipl Kfm, Dipl. Wirt, Dipl.vet., Dr, Dr., Dr. Dr., Dr.-Ing., Dr. med, Dr. med., Dr.med., Lic., Prof. , Prof. Dr., Prof.Dr.)
     - Abbreviations (e.g. gen.) have been removed. 
     - Spaces have been replaced by n-dash signs, dots removed. 
+
+## Data privacy 
+Personal data of all participants has been removed for reasons of data privacy for this publication. 
